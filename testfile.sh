@@ -1,4 +1,2 @@
 #!/bin/bash
-for i in $number; do 
-  echo "$i";
-done
+echo "Hello Number $number"
