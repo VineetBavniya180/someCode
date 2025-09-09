@@ -2,8 +2,10 @@ pipeline {
   agent any
 
   stages{
-    stage {
-      echo "Hello Jenkinsfile"
+    stage ('print'){
+        steps{
+          echo "Hello Jenkinsfile"
+        }
     }
   }
 }
